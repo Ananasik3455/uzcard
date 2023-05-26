@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/@unistream/unidesign@1"></script>
+
+    <section class="main-banner-wrapper">
+        <div class="ui container">
+            <div class="main-banner">
+                <div class="main-banner__content">
+                    <h1 class="main-banner__title">Пополнение карт HUMO и Uzcard</h1>
+                    <h2 class="main-banner__subtitle">Пополняйте карты платежной системы humo и Uzcard на сайте в приложении и офисах Юнистрим</h2>
+                </div>
+                <div class="main-banner__containerlogo">
+                    <img class="main-banner__logo" src="./images/logo-humo.svg" alt="Humo logo">
+                    <img class="main-banner__logo" src="./images/logo-uzcard.svg" alt="Uzcard logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="ui container">
+        <section class="mobile-app">
+            <h2 class="mobile-app__title section-title">Полняйте карты humo и uzcard через мобильное приложение юнистрим</h2>
+            <p class="section-text">Отправляйте переводы на карты систем Humo и <br> Uzcard удобно, в несколько кликов и без комиссии </p>
+            <div class="mobile-app__grid">
+
+                <div class="mobile-app__img">
+                    <img src="./images/mobile-app-img.png" alt="Скачайте мобильное приложение Юнистрим">
+                </div>
+
+                <div class="mobile-app__content">
+
+                    <ul class="mobile-app-content__list">
+                        <li>Выберите страну перевода Узбекистан</li>
+                        <li>Укажите тип выплаты “На карту”</li>
+                        <li>Заполните номер карты и другие данные и отправьте перевод</li>
+                    </ul>
+
+                    <div class="mobile-app-content__app-badges">
+                        <uni-mobile-apps align = left theme="light"></uni-mobile-apps>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="office">
+            <h2 class="office__title section-title">
+                Полняйте карты humo и uzcard Наличными в офисах Юнистрим и офисах партнеров
+            </h2>
+
+            <div class="office__list">
+                <div class="office__item">
+                    <div class="office-item__step">1</div>
+                    <div class="office-item__text">
+                        Обратитесь в любую кассу банка Юнистрим или офис партнера
+                    </div>
+                </div>
+
+                <div class="office__item">
+                    <div class="office-item__step">2</div>
+                    <div class="office-item__text">
+                        Сообщите номер карты и ФИО получателя  
+                    </div>
+                </div>
+
+                <div class="office__item">
+                    <div class="office-item__step">3</div>
+                    <div class="office-item__text">
+                        Пополнение карты произайдет моментально
+                    </div>
+                </div>
+            </div>
+
+            <a class="ui button office__button" href="/locations/">
+                <svg width="42" height="51" viewBox="0 0 42 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40 21.2273C40 36.1818 21 49 21 49C21 49 2 36.1818 2 21.2273C2 16.1279 4.00178 11.2374 7.56497 7.63154C11.1282 4.02572 15.9609 2 21 2C26.0391 2 30.8718 4.02572 34.435 7.63154C37.9982 11.2374 40 16.1279 40 21.2273Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21.5 28C25.0899 28 28 25.0899 28 21.5C28 17.9101 25.0899 15 21.5 15C17.9101 15 15 17.9101 15 21.5C15 25.0899 17.9101 28 21.5 28Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Найти офис
+            </a>
+        </section>
+
+        <section class="tariffs">
+            <h2 class="tariffs__title section-title">Тарифы</h2>
+
+            <table class="ui celled table tariffs__table">
+                <tbody>
+                    <tr>
+                        <td>Мобильное приложение</td>
+                        <td></td>
+                        <td>0 %</td>
+                    </tr>
+                    <tr>
+                        <td>Кассы собственной сети ЮНИСТРИМ </td>
+                        <td>RUB-KGS <br> USD-KGS <br> EUR-KGS</td>
+                        <td>0 %</td>
+                    </tr>
+                    <tr>
+                        <td>В партнерской сети</td>
+                        <td>RUB-KGS <br> USD-KGS <br> EUR-KGS</td>
+                        <td>0 %</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="section-text">
+                Пополнение карт Uzcard/ HUMO <br> Минимальная сумма перевода 50 000 узбекских сумов (UZS) <br> Максимальная сумма перевода 9 000 000 узбекских сумов UZS
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
